@@ -58,7 +58,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="fixed top-4 right-4 z-50 w-full md:w-auto">
+    <nav className="fixed top-4 right-2 z-50 w-full md:w-auto">
       {/* Hamburger Menu Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
